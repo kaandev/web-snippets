@@ -1,0 +1,7 @@
+$base-em        : 16px;
+
+// Convert px to em
+@function em( $target, $context : $base-em )
+{
+    @return ( $target / $context ) + 0em;
+}

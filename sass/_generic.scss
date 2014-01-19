@@ -1,0 +1,27 @@
+$selection-bg       : #6c9624;
+$selection-text     : #fff;
+
+
+::selection 
+{
+    background: $selection-bg; /* Safari */
+    color: $selection-text;
+}
+::-moz-selection 
+{
+    background: $selection-bg; /* Firefox */
+    color: $selection-text;
+}
+iframe
+{
+    vertical-align: top;
+}
+img
+{
+    vertical-align: middle;
+}
+input,
+textarea
+{
+    outline: none;
+}
