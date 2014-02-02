@@ -9,6 +9,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@mixin clearfix()
+{
+    overflow: hidden;
+    &:after
+    {
+        clear: both;
+        content: "";
+        display: block;
+    }
+}
 @mixin elegantIcons()
 {
     font-family: 'ElegantIcons';
